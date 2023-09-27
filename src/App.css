@@ -1,0 +1,53 @@
+#root {
+  text-align: center;
+}
+
+#headerDiv {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  max-width: 900px;
+  margin: 0 auto; 
+}
+input {
+  height: 25px;
+  width: 250px;
+}
+select{
+  height: 31px;
+  background-color: gold;
+  color: black;
+}
+li {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 135px;
+  grid-template-rows: repeat(3, 1fr);
+  background-color: rgb(61, 61, 61);
+}
+.typeAndYearContainer {
+  width: 300px;
+  border: 1px solid black;
+  background-color: gold;
+  color: black;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+img{
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  max-height: 200px;
+  max-width: 135px;
+}
+h2 { 
+  display: flex;
+  margin-left: 10px;
+  max-height: 20px;
+  
+}
+#clapperIcon{
+  width: 100px;
+  height: 100px;
+}
+
